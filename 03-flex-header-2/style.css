@@ -1,0 +1,58 @@
+body{
+    background-color: gray;
+    margin: 0;
+}
+header{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+.primero{
+    background-color: whitesmoke;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    font-size: 35px ;
+    font-style: italic;
+    font-weight: bold;
+    color: purple;
+}
+ul{
+    color: purple;
+    display: flex;
+    justify-content: flex-start;
+}
+li{
+    list-style: none;
+    margin: 5px;
+
+}
+
+.segundo{
+    background-color:white;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blueviolet;
+}
+.notificacion{
+    background-color: purple;
+    color: aliceblue;
+    padding: 8px 5px;
+    border-radius: 10px;
+}
+.dot{
+    background: purple;
+    margin: 10px;
+    padding: 25px;
+    border: 1px black solid;
+    border-radius: 50%;
+    position: relative;
+    left: 9px;
+}
